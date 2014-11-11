@@ -30,7 +30,7 @@ from flask.ext.sqlalchemy import SQLAlchemy
 
 from functools import wraps
 
-
+#Don't know anything about pyhton so adding useless comment
 # Default config vals
 THEME = 'default' if os.environ.get('THEME') is None else os.environ.get('THEME')
 FLASK_DEBUG = 'false' if os.environ.get('FLASK_DEBUG') is None else os.environ.get('FLASK_DEBUG')
